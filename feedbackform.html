@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form</title>
+</head>
+<body>
+
+    <header>
+        <h1>Feedback Form</h1>
+        <p>We value your feedback. Please share your thoughts with us.</p>
+    </header>
+
+    <section>
+        <form>
+            <label for="name">Full Name:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="phone">Phone Number:</label><br>
+            <input type="tel" id="phone" name="phone"><br><br>
+
+            <label for="experience">How was your experience?</label><br>
+            <select id="experience" name="experience" required>
+                <option value="">Select an option</option>
+                <option value="Excellent">Excellent</option>
+                <option value="Good">Good</option>
+                <option value="Average">Average</option>
+                <option value="Poor">Poor</option>
+            </select><br><br>
+
+            <label for="comments">Your Feedback:</label><br>
+            <textarea id="comments" name="comments" rows="4" cols="30" required></textarea><br><br>
+
+            <label for="improve">What can we improve?</label><br>
+            <input type="checkbox" id="service" name="improve" value="Service"> Service
+            <input type="checkbox" id="quality" name="improve" value="Quality"> Quality
+            <input type="checkbox" id="support" name="improve" value="Support"> Support
+            <input type="checkbox" id="other" name="improve" value="Other"> Other<br><br>
+
+            <label for="newsletter">Subscribe to our newsletter:</label>
+            <input type="checkbox" id="newsletter" name="newsletter"><br><br>
+
+            <input type="submit" value="Submit Feedback">
+            <input type="reset" value="Reset Form">
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Devipriya M. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
